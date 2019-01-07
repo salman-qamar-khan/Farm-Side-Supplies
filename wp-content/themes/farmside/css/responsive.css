@@ -1,0 +1,487 @@
+
+
+@media (max-width: 1199px) and (min-width: 1024px) {
+    .navbar-header{
+        float: none;
+        text-align: center;
+    }
+    .navbar-header .logo{
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 200px;
+        margin-right: 0;
+        display: inline-block;
+    }
+    #navbar-container{
+        text-align: center;
+    }
+    #navbar-container .nav.navbar-right.set-li2{
+        float: none !important;
+        display: inline-block;
+        padding-top: 0;
+        padding-right: 0;
+    }
+    .text-bg{
+        margin-top: 50px;
+    }
+    .bg-img .btn-shop-now{
+        margin-bottom: 50px;
+    }
+    #owl-demo .item img{
+        max-width: 100%;
+        width: auto;
+    }
+
+    /*------- product --------*/
+    .product-img img{
+        transform: translateX(-20%);
+    }
+    .set-prod h4 {
+        height: 38px;
+        overflow: hidden;
+    }
+
+    .set-prod h5 {
+        height: 50px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 992px) {
+
+    .navbar-header{
+        float: none;
+        text-align: center;
+    }
+    .navbar-header .logo{
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 200px;
+        margin-right: 0;
+        display: inline-block;
+    }
+    #navbar-container{
+        text-align: center;
+    }
+    #navbar-container .nav.navbar-right.set-li2{
+        float: none !important;
+        display: inline-block;
+        padding-top: 0;
+        padding-right: 0;
+    }
+    .text-bg{
+        margin-top: 50px;
+    }
+    .bg-img .btn-shop-now{
+        margin-bottom: 50px;
+    }
+    #owl-demo .item img{
+        max-width: 100%;
+        width: auto;
+    }
+
+    /*------- product --------*/
+    .product-img img{
+        transform: translateX(-20%);
+    }
+    .set-prod h4 {
+        height: 38px;
+        overflow: hidden;
+    }
+
+    .set-prod h5 {
+        height: 50px;
+        overflow: hidden;
+    }
+
+}
+
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+    header .left{
+        padding-left: 15px;
+    }
+    header .right{
+        padding-right: 15px;
+    }
+    .navbar-header{
+        float: none;
+        text-align: center;
+    }
+    .navbar-header .logo{
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 200px;
+        margin-right: 0;
+        display: inline-block;
+    }
+    #navbar-container{
+        text-align: center;
+    }
+    #navbar-container .nav.navbar-right.set-li2{
+        float: none !important;
+        display: inline-block;
+        padding-top: 0;
+        padding-right: 0;
+    }
+    .text-bg{
+        margin-top: 45px;
+    }
+    .text-bg h1 {
+        font-size: 36px;
+        padding-top: 20px;
+    }
+    .bg-img .btn-shop-now{
+        margin-bottom: 50px;
+    }
+    #owl-demo .item img{
+        max-width: 100%;
+        width: auto;
+    }
+
+    /*------- product --------*/
+    .product-img img{
+        transform: translateX(-20%);
+    }
+    .set-prod h4 {
+        height: 38px;
+        overflow: hidden;
+    }
+
+    .set-prod h5 {
+        height: 50px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 685px) {
+    header .left{
+        padding-left: 15px;
+        padding-right: 0;
+    }
+    header .right{
+        padding-right: 15px;
+    }
+    .left ul > li{
+        padding-right: 0;
+    }
+    .navbar-header{
+        float: none;
+        text-align: center;
+    }
+    .navbar-header .logo{
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 200px;
+        margin-right: 0;
+        display: inline-block;
+    }
+    #navbar-container{
+        text-align: center;
+    }
+    #navbar-container .nav.navbar-right.set-li2{
+        float: none !important;
+        display: inline-block;
+        padding-top: 0;
+        padding-right: 0;
+    }
+    .text-bg{
+        margin-top: 30px;
+    }
+    .text-bg h1 {
+        font-size: 27px;
+        padding-top: 0;
+        padding-bottom: 10px
+    }
+    .bg-img .btn-shop-now{
+        margin-bottom: 50px;
+    }
+    .owl-carousel {
+        margin-bottom: 35px;
+        margin-top: 35px;
+    }
+    #owl-demo .item img{
+        max-width: 100%;
+        width: auto;
+    }
+    .set-foot-1 h5 {
+        width: 200px;
+        text-align: center;
+        margin: 20px auto 33px;
+    }
+    .set-foot-2 h5 {
+        width: 200px;
+        text-align: center;
+        margin: 20px auto 33px;
+    }
+    .set-foot-3 h5 {
+        width: 200px;
+        text-align: center;
+        margin: 20px auto 33px;
+    }
+    .set-foot-4 h5 {
+        width: 200px;
+    }
+    .set-footer-logo{
+        text-align: center;
+        display: block;
+        margin: 0 auto 20px;
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media (max-width: 684px) and (min-width: 568px) {
+
+    header .left{
+        padding-left: 15px;
+        padding-right: 0;
+    }
+    header .right{
+        padding-right: 15px;
+    }
+    .left ul > li{
+        padding-right: 0;
+    }
+    .navbar-header{
+        float: none;
+        text-align: center;
+    }
+    .navbar-header .logo{
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 200px;
+        margin-right: 0;
+        display: inline-block;
+    }
+    #navbar-container{
+        text-align: center;
+    }
+    #navbar-container .nav.navbar-right.set-li2{
+        float: none !important;
+        display: inline-block;
+        padding-top: 0;
+        padding-right: 0;
+    }
+    .text-bg{
+        margin-top: 30px;
+    }
+    .text-bg h1 {
+        font-size: 27px;
+        padding-top: 0;
+        padding-bottom: 10px
+    }
+    .bg-img .btn-shop-now{
+        margin-bottom: 50px;
+    }
+    .owl-carousel {
+        margin-bottom: 35px;
+        margin-top: 35px;
+    }
+    #owl-demo .item img{
+        max-width: 100%;
+        width: auto;
+    }
+    .set-foot-1 h5 {
+        width: 200px;
+        text-align: center;
+        margin: 20px auto 33px;
+    }
+    .set-foot-2 h5 {
+        width: 200px;
+        text-align: center;
+        margin: 20px auto 33px;
+    }
+    .set-foot-3 h5 {
+        width: 200px;
+        text-align: center;
+        margin: 20px auto 33px;
+    }
+    .set-foot-4 h5 {
+        width: 200px;
+    }
+    .set-footer-logo{
+        text-align: center;
+        display: block;
+        margin: 0 auto 20px;
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media (max-width: 567px) and (min-width: 480px) {
+    header .left{
+        padding-left: 15px;
+        padding-right: 0;
+    }
+    header .right{
+        padding-right: 15px;
+    }
+    .left ul > li{
+        padding-right: 0;
+    }
+    .navbar-header{
+        float: none;
+        text-align: center;
+    }
+    .navbar-header .logo{
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 200px;
+        margin-right: 0;
+        display: inline-block;
+    }
+    #navbar-container{
+        text-align: center;
+    }
+    #navbar-container .nav.navbar-right.set-li2{
+        float: none !important;
+        display: inline-block;
+        padding-top: 0;
+        padding-right: 0;
+    }
+    .text-bg{
+        margin-top: 30px;
+    }
+    .text-bg h1 {
+        font-size: 20px;
+        padding: 0 10px 10px
+    }
+    .bg-img .btn-shop-now{
+        margin-bottom: 50px;
+    }
+    .content-sec-1 .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .owl-carousel {
+        margin-bottom: 35px;
+        margin-top: 35px;
+    }
+    #owl-demo .item img{
+        max-width: 100%;
+        width: auto;
+    }
+    .set-foot-1 h5 {
+        width: 200px;
+        text-align: center;
+        margin: 20px auto 33px;
+    }
+    .set-foot-2 h5 {
+        width: 200px;
+        text-align: center;
+        margin: 20px auto 33px;
+    }
+    .set-foot-3 h5 {
+        width: 200px;
+        text-align: center;
+        margin: 20px auto 33px;
+    }
+    .set-foot-4 h5 {
+        width: 200px;
+    }
+    .set-footer-logo{
+        text-align: center;
+        display: block;
+        margin: 0 auto 20px;
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media (max-width: 479px) and (min-width: 320px) {
+    header .left{
+        padding-left: 15px;
+        padding-right: 0;
+        width: 100%;
+    }
+    header .right{
+        padding-right: 15px;
+        width: 100%;
+    }
+    header .right ul {
+        margin-top: 0px;
+    }
+    .left ul > li{
+        padding-right: 0;
+    }
+    .navbar-header{
+        float: none;
+        text-align: center;
+    }
+    .navbar-header .logo{
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 150px;
+        margin-right: 0;
+        display: inline-block;
+    }
+    #navbar-container{
+        text-align: center;
+    }
+    #navbar-container .nav.navbar-right.set-li2{
+        float: none !important;
+        display: inline-block;
+        padding-top: 0;
+        padding-right: 0;
+    }
+    .text-bg{
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+    .text-bg h1 {
+        font-size: 16px;
+        padding: 0 10px 10px
+    }
+    .bg-img .btn-shop-now{
+        margin-bottom: 0px;
+    }
+    .contact-us textarea{
+        width: 100%;
+    }
+    .content-sec-1 .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .owl-carousel {
+        margin-bottom: 35px;
+        margin-top: 35px;
+    }
+    #owl-demo .item img{
+        max-width: 100%;
+        width: auto;
+    }
+    .set-foot-1 h5 {
+        width: 200px;
+        text-align: center;
+        margin: 20px auto 33px;
+    }
+    .set-foot-2 h5 {
+        width: 200px;
+        text-align: center;
+        margin: 20px auto 33px;
+    }
+    .set-foot-3 h5 {
+        width: 200px;
+        text-align: center;
+        margin: 20px auto 33px;
+    }
+    .set-foot-4 h5 {
+        width: 200px;
+    }
+    .set-footer-logo{
+        text-align: center;
+        display: block;
+        margin: 0 auto 20px;
+        width: 200px;
+        height: auto;
+    }
+}

@@ -1,0 +1,1269 @@
+/*
+
+Theme Name:FarmSide
+
+Theme URI: #
+
+Author: Intellect
+
+Author URI: #
+
+Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+
+Version: 1.5
+
+License: GNU General Public License v2 or later
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+Text Domain: AspiCare
+
+
+
+This theme, like WordPress, is licensed under the GPL.
+
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+@font-face {
+
+    font-family: 'Roboto-Light';
+
+    src: url(fonts/Roboto-Light.ttf);
+
+}
+
+@font-face {
+
+    font-family: 'Roboto-Regular';
+
+    src: url(fonts/Roboto-Regular.ttf);
+
+}
+
+@font-face {
+
+    font-family: 'RobotoCondensed-Bold';
+
+    src: url(fonts/RobotoCondensed-Bold.ttf);
+
+}
+
+@font-face {
+
+    font-family: 'Roboto-Medium';
+
+    src: url(fonts/Roboto-Medium.ttf);
+
+}
+
+@font-face {
+
+    font-family: 'Roboto-Thin';
+
+    src: url(fonts/Roboto-Thin.ttf);
+
+}
+
+/*header8*/
+
+.set-bg {
+
+    background-color: #68872a;
+
+}
+
+.left {
+
+    padding-left: 130px;
+
+}
+
+.right {
+    padding-right: 150px;
+}
+
+.left ul {
+
+    list-style: none;
+
+    padding: 0px;
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+.left ul > li {
+
+    display: inline-block;
+
+    padding-right: 50px;
+
+    font-family: 'Roboto-Light';
+
+    font-size: 14px;
+
+    color: #ffffff;
+
+}
+
+.left .fa {
+
+    color: #f5d303;
+
+    padding-right: 10px;
+
+}
+
+.right ul {
+
+    list-style: none;
+
+    padding: 0px;
+
+    float: right;
+
+    margin-top: 20px;
+
+}
+
+.right ul > li {
+
+    display: inline-block;
+
+    padding-right: 10px;
+
+}
+
+.right .fa {
+
+    color: #ffffff;
+
+    font-size: 20px;
+
+}
+
+.right .fa:hover {
+
+    color: #f5d303;
+
+    cursor: pointer;
+
+}
+
+.navbar-default {
+
+    background-color: #ffffff;
+
+    border: 0px;
+
+    border-radius: 0px;
+
+    margin-bottom: 0px;
+
+}
+
+.logo {
+
+    margin-left: 116px;
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+    width: 38%;
+
+}
+
+.nav > li > a {
+
+    padding: 0px 0px;
+
+    margin: 10px 15px;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+
+    color: #4e4e4e;
+
+    font-size: 14px;
+
+    font-family: 'Roboto-Regular';
+
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+
+    color: #68872a;
+
+}
+
+.set-li2 {
+
+    padding-top: 24px;
+
+    padding-right: 145px;
+
+}
+
+.bg-img {
+
+    background: url("http://i--demo.com/projects/farmside/wp-content/uploads/2016/08/farmside-bg.jpg") no-repeat;
+
+    background-size: 100%;
+
+}
+
+.text-bg {
+
+    text-align: center;
+
+    margin-top: 200px;
+
+    margin-bottom: 23px;
+
+    width: 80%;
+
+    display: inline-block;
+
+    border-radius: 30px;
+
+    background-color: rgba(104, 135, 42, 0.7);
+
+}
+
+.text-bg h1 {
+
+    font-family: 'RobotoCondensed-Bold';
+
+    font-size: 50px;
+
+    color: #ffffff;
+
+    padding-top: 40px;
+
+    padding-bottom: 40px;
+
+    padding-left: 50px;
+
+    padding-right: 50px;
+
+}
+
+.bg-img .container {
+
+    text-align: center;
+
+}
+
+.bg-img .btn-shop-now {
+
+    font-family: 'Roboto-Medium';
+
+    font-size: 20px;
+
+    color: #222222;
+
+    padding: 4px 50px;
+
+    border-radius: 10px;
+
+    border: 0px;
+
+    background-color: #ffd800;
+    display: inline-block;
+    margin-bottom: 136px;
+
+}
+
+.bg-img .btn-shop-now:hover,
+.bg-img .btn-shop-now:focus {
+
+    box-shadow: none;
+    background-color: rgba(255, 216, 0, 0.9);
+    outline: none;
+    text-decoration: none;
+
+}
+
+.content-sec-1 h1 {
+
+    font-family: 'Roboto-Light';
+
+    font-size: 36px;
+
+    color: #68872a;
+
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 45px;
+
+}
+
+.content-sec-1 h2 {
+
+    font-family: 'Roboto-Light';
+
+    font-size: 18px;
+
+    color: #494949;
+
+    text-align: center;
+
+    line-height: 25px;
+
+    margin-bottom: 45px;
+
+}
+
+.content-sec-1 .container {
+
+    padding-left: 0px;
+
+    padding-right: 0px;
+
+}
+
+.content-sec-1 h3 {
+
+    font-family: 'Roboto-Light';
+
+    font-size: 20px;
+
+    color: #759143;
+
+}
+
+.content-sec-1 h4 {
+
+    font-family: 'Roboto-Light';
+
+    font-size: 16px;
+
+    color: #2d2d2d;
+
+}
+
+.content-sec-1 h5 {
+
+    font-family: 'Roboto-Light';
+
+    font-size: 16px;
+
+    color: #2d2d2d;
+
+    line-height: 25px;
+
+}
+
+.content-sec-1 h5 > a {
+
+    color: #8cbf26;
+
+    text-decoration: none;
+
+}
+
+.img-cont{
+background-size: cover!important;
+    width: 100%;
+    height: 260px;
+
+}
+
+.button-cont {
+
+    text-align: center;
+
+}
+.btn-green{
+    display: inline-block;
+    background-color: #8cbf26;
+    color: #ffffff;
+    padding: 13px 85px;
+    border: 0px;
+    border-radius: 23px;
+
+}
+.btn-green:hover,
+.btn-green:focus{
+    text-decoration: none;
+    background-color: rgba(140,191,38,0.8);
+    color: #ffffff;
+}
+.button-cont .btn-green{
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+.content-sec-2 h1 {
+
+    font-family: 'Roboto-Light';
+
+    font-size: 36px;
+
+    color: #68872a;
+
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+
+}
+
+.content-sec-2 h2 {
+
+    font-family: 'Roboto-Light';
+
+    font-size: 18px;
+
+    text-align: center;
+
+    line-height: 25px;
+
+}
+
+div.wpcf7 img.ajax-loader {
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-us {
+
+    background-color: #f5f5f5;
+    /*margin-top: 50px;*/
+
+}
+
+.contact-us form {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contact-us input {
+    /*margin: 1px 15px 1px;*/
+    /*width: 20%;*/
+    height: 40px;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #f5f5f5;
+}
+
+.contact-us .your-name input,
+.contact-us .your-email input{
+    width: 100%;
+    margin: 1px 0;
+}
+
+.contact-us input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.contact-us textarea {
+    width: 100%;
+    margin-top: 60px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.contact-us textarea:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.contact-us-767{
+    width: 100%;
+    max-width: 767px;
+    margin: 0 auto;
+}
+
+html input[type=button], input[type=reset], input[type=submit] {
+
+    background-color: #8cbf26;
+
+    color: #ffffff;
+
+    padding: 4px 29px;
+
+    border-radius: 30px;
+
+    font-size: 24px;
+
+    font-family: 'Roboto-Regular';
+
+    margin-top: 45px;
+
+    border: 0px;
+
+    margin-bottom: 25px;
+
+}
+
+html input[type=button], input[type=reset], input[type=submit]:focus {
+
+    box-shadow: none;
+
+    outline: none;
+
+}
+
+.contact-us h1 {
+
+    font-size: 36px;
+
+    color: #68872a;
+
+    font-family: 'Roboto-Light';
+
+    text-align: center;
+
+}
+
+.contact-us-main h1 {
+    margin-top: 50px;
+}
+
+.contact-us-main h2 {
+    font-family: 'Roboto-Light';
+    font-size: 18px;
+    color: #494949;
+    text-align: center;
+    line-height: 25px;
+}
+
+.contact-us-main .container {
+    /*padding-left: 0px;*/
+    /*padding-right: 0px;*/
+}
+
+.set-form {
+    margin-top: 55px;
+    /*padding-right: 0px;*/
+    /*padding-left: 0px;*/
+}
+
+.set-form ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.set-form ul > li {
+    font-family: 'Roboto-Light';
+    font-size: 16px;
+    color: #737373;
+}
+
+.set-form ul > li:first-child {
+    padding-bottom: 10px;
+}
+
+.set-form .fa {
+    color: #ffd800;
+    padding-right: 10px;
+}
+
+.set-form h3 {
+    font-family: 'Roboto-Light';
+    font-size: 18px;
+    color: #494949;
+    line-height: 25px;
+}
+
+div.wpcf7-validation-errors {
+
+    border: 0px;
+
+    font-family: 'Roboto-Regular';
+
+    font-size: 25px;
+
+    color: red;
+
+}
+
+#owl-demo .item {
+    margin: 3px;
+    text-align: center;
+}
+
+#owl-demo .item img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+.owl-carousel {
+
+    margin-bottom: 90px;
+
+    margin-top: 35px;
+
+}
+
+.owl-carousel .owl-item {
+
+    width: 0px;
+}
+
+/*footer*/
+.set-footer {
+
+    background-color: #68872a;
+    border-bottom: 4px solid #ffd800
+
+}
+
+.set-foot-1 h5 {
+
+    border-bottom: 1px solid #ffc200;
+
+    width: 45%;
+
+    color: #ffffff;
+
+    font-size: 18px;
+
+    font-family: 'Roboto-Regular';
+
+    margin-bottom: 33px;
+
+    padding-bottom: 10px;
+
+}
+
+.set-foot-1 .fa-calendar-o, .set-foot-1 .fa-arrow-circle-o-right {
+
+    color: #ffc200;
+
+    float: left;
+
+    padding-right: 15px;
+
+    margin-top: 2px;
+
+    font-size: 18px;
+
+}
+
+.set-foot-1 .fa-envelope {
+
+    color: #ffc200;
+
+    float: left;
+
+    padding-right: 15px;
+
+    margin-top: 9px;
+
+    font-size: 18px;
+
+}
+
+.set-foot-1 .fa-phone-square {
+
+    color: #ffc200;
+
+    float: left;
+
+    padding-right: 15px;
+
+    margin-top: 9px;
+
+    font-size: 20px;
+
+}
+
+.set-foot-1 h6, .set-foot-2 h6 > a, .set-foot-3 h6 {
+    font-family: 'Roboto-Regular';
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.social-height {
+
+    height: 15px;
+
+}
+
+.set-foot-2 .fa-arrow-circle-o-right {
+
+    color: #ffc200;
+
+    float: left;
+
+    padding-right: 15px;
+
+    margin-top: 0px;
+
+    font-size: 18px;
+
+}
+
+.social-height-2 {
+
+    margin-bottom: 25px;
+
+}
+
+.set-foot-2 h5 {
+
+    border-bottom: 1px solid #ffc200;
+
+    width: 38%;
+
+    color: #ffffff;
+
+    font-size: 18px;
+
+    font-family: 'Roboto-Regular';
+
+    margin-bottom: 33px;
+
+    padding-bottom: 10px;
+
+}
+
+.set-foot-3 {
+
+    padding-right: 0px;
+
+}
+
+.set-foot-3 h5 {
+
+    border-bottom: 1px solid #ffc200;
+
+    width: 62%;
+
+    color: #ffffff;
+
+    font-size: 18px;
+
+    font-family: 'Roboto-Regular';
+
+    margin-bottom: 33px;
+
+    padding-bottom: 10px;
+
+}
+
+.set-foot-4 {
+
+    text-align: center;
+
+}
+
+.set-foot-4 h5 {
+
+    border-bottom: 1px solid #ffc200;
+
+    width: 43%;
+
+    color: #ffffff;
+
+    font-size: 18px;
+
+    font-family: 'Roboto-Regular';
+
+    margin-bottom: 33px;
+
+    padding-bottom: 10px;
+
+    text-align: center;
+
+    display: inline-block;
+
+}
+
+.subscribe {
+    position: relative;
+    width: 91%;
+}
+
+.set-foot-3 button {
+
+    font-family: 'Roboto-Light';
+
+    font-size: 14px;
+
+    color: #ffffff;
+
+    background-color: #8cbf26;
+
+    padding: 4px 10px;
+    position: absolute;
+    left: 164px;
+    border: 1px solid #ffffff;
+    height: 100%;
+
+}
+
+.set-foot-3 button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.set-foot-3 input {
+
+    height: 29px;
+    width: 100%;
+    border: 0px;
+
+    border-left: 1px solid #f5f5f5;
+
+    border-bottom: 1px solid #f5f5f5;
+
+    border-top: 1px solid #f5f5f5;
+
+    background-color: #68872a;
+
+    color: #ffffff;
+
+}
+
+.set-foot-3 input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+
+.set-footer-logo {
+
+    text-align: center;
+
+    display: inline-block;
+
+    width: 75%;
+
+    height: 134px;
+
+}
+
+.set-foot-4 .fa-youtube, .set-foot-4 .fa-google-plus, .set-foot-4 .fa-facebook, .set-foot-4 .fa-twitter, .set-foot-4 .fa-instagram {
+
+    color: #ffffff;
+
+    font-size: 25px;
+
+    color: #ffc200;
+
+}
+
+.set-foot-4 ul {
+
+    display: inline-flex;
+
+    padding: 0px;
+
+    list-style: none;
+
+}
+
+.set-foot-4 ul > li {
+
+    padding-right: 15px;
+
+}
+
+.set-foot-pad {
+
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.our-store {
+    text-align: center;
+}
+
+.our-store h1 {
+    font-family: 'Roboto-Light';
+    font-size: 36px;
+    color: #68872a;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 45px;
+}
+
+.our-store h2 {
+    font-family: 'Roboto-Light';
+    font-size: 18px;
+    color: #494949;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+
+.about-us h1 {
+    font-size: 36px;
+    color: #68872a;
+    font-family: 'Roboto-Light';
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-us h2 {
+    font-family: 'Roboto-Light';
+    font-size: 18px;
+    color: #494949;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 45px;
+}
+
+.about-us h3 {
+    font-family: 'Roboto-Light';
+    font-size: 20px;
+    color: #494949;
+    line-height: 25px;
+    margin-top: 46px;
+}
+
+.set-pad {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.set-about-content {
+    border: 1px solid #d3d3d3;
+}
+
+.about-img-cont {
+    margin-top: 46px;
+}
+
+.about-us p {
+    font-family: 'Roboto-Light';
+    font-size: 20px;
+    color: #494949;
+    clear: both;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 35px;
+    padding-bottom: 45px;
+}
+
+.single-img-container {
+    /*width: 404px;*/
+    /*height: 335px;*/
+    margin-bottom: 30px;
+    display: inline-block;
+
+}
+
+.single-contents ul > li {
+    margin-bottom: 15px;
+}
+
+.center-img {
+    text-align: center;
+}
+
+.single-img-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.single-contents {
+    /*margin-left: 35px;*/
+}
+.single-contents .container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.single-contents h3 {
+    font-family: 'Roboto-Light';
+    font-size: 26px;
+    color: #072947;
+    display: initial;
+}
+
+.single-contents p {
+    font-family: 'Roboto-Light';
+    font-size: 16px;
+    color: #072947;
+    line-height: 25px;
+}
+
+.single-contents span:first-child {
+    color: #5b7929;
+
+}
+
+.content-sec-1 .single-contents h4 {
+    margin-top: 35px;
+}
+
+.search-cont {
+    position: relative;
+    float: left;
+    width: 24%;
+}
+
+.search-cont button {
+    font-family: 'Roboto-Light';
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #5b7929;
+    padding: 1px 10px;
+    border: 0px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.search-cont button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.set-prod a {
+    font-family: 'Roboto-Light';
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.set-prod a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.search-cont input {
+    height: 28px;
+    padding-left: 10px;
+    margin-right: 15px;
+}
+.products .container{
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.products h3 {
+
+    font-family: 'Roboto-Thin';
+    font-size: 18px;
+    margin-left: 32px;
+    float: left;
+}
+
+.right-content {
+    width: 24%;
+}
+
+.right-content span {
+    float: left;
+    font-family: 'Roboto-Light';
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.right-content select {
+    width: 64%;
+    height: 28px;
+}
+
+.products-content {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.set-prod {
+    margin-bottom: 40px;
+
+}
+
+.product-img {
+    border: 1px solid #d5d5d5;
+    text-align: center;
+    height: 280px;
+    overflow: hidden;
+}
+
+.product-img:hover {
+    border: 1px solid #5b7929;
+    cursor: pointer;
+}
+
+.product-img img {
+    display: inline-block;
+    height: auto;
+}
+
+.set-prod h4 {
+    font-family: 'Roboto-Regular';
+    font-size: 18px;
+}
+
+.set-prod span {
+    font-family: 'Roboto-Light';
+    font-size: 16px;
+}
+
+.set-prod h5 {
+    font-family: 'Roboto-Light';
+    font-size: 14px;
+}
+
+.set-prod .shop-prod-btn {
+    font-family: 'Roboto-Light';
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #5b7929;
+    padding: 1px 10px;
+    border: 0px;
+    display: inline-block;
+}
+.set-prod .shop-prod-btn:hover,
+.set-prod .shop-prod-btn:focus{
+    text-decoration: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.pagination {
+    display: inline;
+}
+
+.pagination-1 {
+    clear: both;
+}
+
+.pagination-1 .current {
+    color: #ffffff;
+    background-color: #5b7929;
+}
+
+.pagination > li > span:hover, .pagination > li > a:hover {
+    background-color: #68872a;
+    color: #ffffff;
+}
+
+.pagination > li > span:focus {
+    background-color: #68872a;
+    color: #ffffff;
+}
+
+.pagination > li > a:focus {
+    background-color: #68872a;
+    color: #ffffff;
+}
+
+.prod-img {
+    clear: both;
+
+}
+
+.prod-single-img {
+    border: 1px solid #d5d5d5;
+    margin-bottom: 20px;
+}
+
+.prod-single-img img {
+    height: auto;
+    width: 100%;
+
+}
+
+.prod-single-cont h6 {
+    font-family: 'Roboto-Regular';
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.prod-single-cont span {
+    font-family: 'Roboto-Light';
+    font-size: 16px;
+}
+
+.prod-single-cont p {
+    font-family: 'Roboto-Light';
+    font-size: 16px;
+}
+
+.prod-single-cont ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.prod-single-cont ul > li {
+    padding-right: 15px;
+}
+
+.prod-single-cont ul > li > a:nth-child(1) {
+    border: 1px solid #23458d;
+    padding: 5px 10px;
+    border-radius: 19px;
+}
+
+.prod-single-cont ul > li > a:nth-child(1):hover {
+    background-color: #23458d;
+}
+
+.prod-single-cont ul > li > a:nth-child(1):hover .fa-facebook {
+    color: #ffffff;
+}
+
+.prod-single-cont ul > li:nth-child(2) > a:nth-child(1) {
+    border: 1px solid #de5140;
+    padding: 5px 5px;
+    border-radius: 19px;
+}
+
+.prod-single-cont ul > li:nth-child(2) > a:nth-child(1):hover {
+    background-color: #de5140;
+}
+
+.prod-single-cont ul > li:nth-child(2) > a:nth-child(1):hover .fa-google-plus {
+    color: #ffffff;
+}
+
+.prod-single-cont .fa-facebook {
+    color: #23458d;
+}
+
+.prod-single-cont .fa-google-plus {
+    color: #de5140;
+}
+
+#mc4wp-form-1 {
+    display: none;
+}
+
+
+/*-------------------*/
+
+.blog-cont .container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.page-id-65 .bg-img ,.page-id-95 .bg-img ,.single-our_products .bg-img{
+display:none;
+}
+
+/* my-style */
+.store-info{
+  margin-top: 30px;
+}
+.store-info h3{
+    font-size: 22px;
+    color: #737373;
+    text-transform: uppercase;
+    margin: 0px 0px 15px;
+}
+.store-info p{
+   font-family: 'Roboto-Light';
+    font-size: 14px;
+    color: #737373;
+    margin: 0 8px 4px;
+}
+  
